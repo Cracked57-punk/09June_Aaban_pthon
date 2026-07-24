@@ -19,4 +19,4 @@ def book_ticket(movie, seat_number):
 try:
     book_ticket('Avengers', -2)
 except InvalidSeatNumberError as isne:
-    print(f"Booking failed :{isne}")
+    print(f"Booking failed: {isne}")
